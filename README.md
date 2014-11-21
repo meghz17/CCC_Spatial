@@ -10,3 +10,7 @@ Python3+
 dpla_utils --> https://github.com/jdnc/imacs
   requests
   pymongo
+  geopy
+  pygmaps_ng
+  guess_language_spirit
+  #TODO: update dependencies including install suggestions.
