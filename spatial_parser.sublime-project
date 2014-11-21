@@ -1,0 +1,7 @@
+{
+	"settings":
+	{
+		"python_interpreter": "/home/josh/.virtualenvs/spatial_parser/bin/python"
+	},
+	"virtualenv": "/home/josh/.virtualenvs/spatial_parser"
+}

@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"coordinates"
+			],
+			[
+				"po",
+				"points_list"
+			],
+			[
+				"add",
+				"add_polygon"
+			],
+			[
+				"infer",
+				"infer_location"
+			],
+			[
+				"dpla",
+				"dpla_parser"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"feth",
+				"fetch_result"
+			],
+			[
+				"gue",
+				"guess_item_languages"
+			],
+			[
+				"get",
+				"get_item_description"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"resu",
+				"result"
+			],
+			[
+				"get_",
+				"get_item_description"
+			],
+			[
+				"block",
+				"block_dict"
+			],
+			[
+				"my",
+				"mydataset"
+			],
+			[
+				"resul",
+				"results"
+			],
+			[
+				"build",
+				"build_dataset"
+			],
+			[
+				"get_it",
+				"get_item_coordinates"
+			],
+			[
+				"fet",
+				"fetch_result"
+			],
+			[
+				"fetch",
+				"fetch_result"
+			],
+			[
+				"spatia",
+				"spatial_block"
+			],
+			[
+				"dataset",
+				"dataset1"
+			],
+			[
+				"dat",
+				"dataset1"
+			],
+			[
+				"num",
+				"num_results"
+			],
+			[
+				"collec",
+				"collections"
+			],
+			[
+				"hu",
+				"hub_largest_collections"
+			],
+			[
+				"h",
+				"hub_largest_collections"
+			],
+			[
+				"dp",
+				"dpla_utils"
+			],
+			[
+				"por",
+				"provider"
+			],
+			[
+				"count",
+				"count_spatial_blocks"
+			],
+			[
+				"col",
+				"collection_key"
+			],
+			[
+				"field",
+				"field_key"
+			],
+			[
+				"not",
+				"not_supported_block_type"
+			],
+			[
+				"n",
+				"not_supported_block_type"
+			],
+			[
+				"print_",
+				"print_block_data"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dpla_parser.py",
+			"settings":
+			{
+				"buffer_size": 5038,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spatial_inference.py",
+			"settings":
+			{
+				"buffer_size": 1405,
+				"line_ending": "Unix",
+				"name": "#spatial_inference.py"
+			}
+		},
+		{
+			"file": "map_gen.py",
+			"settings":
+			{
+				"buffer_size": 1437,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"command_palette":
+	{
+		"height": 151.0,
+		"selected_items":
+		[
+			[
+				"virtual",
+				"Virtualenv: Activate"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pyth",
+				"Python Breakpoints: Toggle"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 194.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/josh/Code/spatial_parser/dpla_utils.py",
+		"/home/josh/Code/spatial_parser/pygmaps_ng-ex.py",
+		"/home/josh/Code/spatial_parser/spatial_parser.sublime-project",
+		"/home/josh/Code/imacs/imacs-master/dpla_utils.py",
+		"/home/josh/Code/imacs/imacs-master/dpla_parser.py",
+		"/home/josh/Code/imacs/imacs-master/pygmaps_ng-ex.py",
+		"/home/josh/Code/mav_scripts/tlog_reader.py",
+		"/home/josh/Documents/VirtualBox Dropped Files/2014-11-13T01:11:44.599323000Z/2014-08-24 12-07-45.tlog",
+		"/home/josh/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/josh/Code/imacs/imacs-master/spatial_deriver.py",
+		"/home/josh/Code/imacs/imacs-master/artstor.py",
+		"/home/josh/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/josh/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/josh/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/josh/Code/imacs/imacs-master/dpla_field.py",
+		"/home/josh/Code/imacs/imacs/settings.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dpla_parser.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spatial_inference.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1166,
+								1166
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#spatial_inference.py",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "map_gen.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								742,
+								742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 245.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "spatial_parser.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
