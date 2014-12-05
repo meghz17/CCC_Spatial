@@ -20,7 +20,7 @@ Each item is a dictionary with results based on the conditions supplied, referre
 """
 api_key = '47db75710ca371a08a3e35bfc73c8a9b'
 conditions = {'sourceResource.collection': dpla_utils.hub_largest_collections["Harvard Library"], 'fields' : 'sourceResource.identifier, sourceResource.title, sourceResource.spatial'}
-num_results = 2000
+num_results = 150
 result = dpla_utils.dpla_fetch(api_key, num_results, **conditions)
 
 

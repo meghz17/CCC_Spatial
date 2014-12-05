@@ -1,7 +1,7 @@
 from __future__ import print_function, unicode_literals
 from dpla_parser import *
 from geopy.geocoders import Nominatim
-import re
+import re, json
 
 """
 Given a fetched item from the dpla, infer the location to place on a map.
@@ -55,8 +55,36 @@ def infer_item_location(item):
 		return []
 
 
-def infer_locations(fetch_result):
+def infer_locations(fetch_result, format_locs=False):
 	locations = []
 	for item in fetch_result:
-		locations.append(infer_item_location(item))
+		if(not format_locs):
+			locations.append(infer_item_location(item))
+		else:
+			inferred_loc = infer_item_location(item)
+			geojson = {}
+			if( type(inferred_loc) is list):
+				geojson['type'] = 'Point'
+				geojson['coordinates'] = inferred_loc
+
+				
+				# locations.append(geojson)
+			else:
+				geojson = inferred_loc
+				# locations.append(inferred_loc)
+
+			props = {}
+			props['title'] = get_item_description(item).encode('utf-8')
+			geojson['properties'] = props
+
+			locations.append(geojson)
+
 	return locations
+
+def dump_to_json(locations_array):
+	f = open("file1.txt", 'w')
+	json.dump(locations_array, f)
+
+
+fetch_result = result
+dump_to_json(infer_locations(fetch_result, True))
